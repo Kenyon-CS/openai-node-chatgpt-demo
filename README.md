@@ -12,10 +12,10 @@ You type a prompt, the server calls the OpenAI **Responses API**, and returns th
 npm install
 cp .env.example .env
 # edit .env and paste your key
-npm start
+make run PORT=41xx
 ```
 
-Then open: http://localhost:3000
+Then open: http://10.192.145.179:3000
 
 ## Notes
 - The API key must stay on the server (never in browser JS).
